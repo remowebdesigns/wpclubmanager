@@ -52,8 +52,9 @@ echo '<li class="fixture">';
 		echo '<div class="kickoff">';
 			if ( $show_date )
 				echo the_date();
+				echo ' - ';
 			if ( $show_time )
-				echo ', <time>' . the_time() . '</time>';
+				echo '<time>' . the_time() . '</time>';
 		echo '</div>';			
 	echo '</div>';
 
